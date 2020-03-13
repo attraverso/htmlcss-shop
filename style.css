@@ -47,6 +47,8 @@ section {
     transform: translateY(-50%);
 }
 
+/* discount label colors */
+
 .disc20 {
     background-color: #EBEE49;
 }
@@ -62,6 +64,8 @@ section {
 .disc5 {
     background-color: #98EE49;
 }
+
+/* heart + white circle, centered on block */
 
 .heart {
     width: 50px;
