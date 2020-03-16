@@ -47,7 +47,7 @@ header h1 {
 
 /* navbar rules */
 
-nav {
+aside {
     margin-top: 80px;
     padding-top: 10px;
     width: 150px;
@@ -78,7 +78,7 @@ nav li:hover {
     display: inline-block;
 }
 
-li:nth-child(3) a {
+.highlight {
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -95,7 +95,8 @@ section {
 .row {
     width: 1100px;
     height: 300px;
-    margin: 0 auto 30px;
+    margin: 0 auto 20px;
+    text-align: center;
 }
 
 .block {
@@ -110,9 +111,9 @@ section {
 .block img {
     width: 200px;
     height: 294px;
-    position: relative;
+    /* position: relative;
     left: 35px;
-    top: 3px;
+    top: 3px; */
 }
 
 /* discount labels rules */
@@ -165,7 +166,6 @@ used opacity to hide/display heart as inline-block was needed for positioning*/
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    display: inline-block;
 }
 
 .block:hover .heart{
